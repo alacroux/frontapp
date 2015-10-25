@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Open Hours",
+  "description": "Open hours of the week when the team can reply to customers' requests",
+  "type": "object",
+  "properties": {
+    "openHours": {
+      "type": "array",
+      "items": {
+        "description": "Open hours of the day when the team can reply to customers' requests ",
+        "type": "object",
+        "properties": {
+          "day": {
+            "description": "the day of the week",
+            "type": "string"
+          },
+          "open": {
+            "description": "Is it open ?",
+            "type": "boolean"
+          },
+          "openHours": {
+            "description": "The hours of opening",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 23
+          },
+          "openMinutes": {
+            "description": "The minutes of opening",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59
+          },
+          "closeHours": {
+            "description": "The hours of closing",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 23
+          },
+          "closeMinutes": {
+            "description": "The minutes of closing",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59
+          }
+        },
+        "required": [
+          "day",
+          "open"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{ "openHours": [
+	{
+		"day" : "monday",
+		"open" : true,
+		"openHours" : 9,
+		"openMinutes" : 0,
+		"closeHours" : 17,
+		"closeMinutes" : 0
+	},
+	{
+		"day" : "tuesday",
+		"open" : true,
+		"openHours" : 9,
+		"openMinutes" : 0,
+		"closeHours" : 17,
+		"closeMinutes" : 0
+	},
+	{
+		"day" : "wednesday",
+		"open" : true,
+		"openHours" : 9,
+		"openMinutes" : 0,
+		"closeHours" : 17,
+		"closeMinutes" : 0
+	},
+	{
+		"day" : "thursday",
+		"open" : true,
+		"openHours" : 9,
+		"openMinutes" : 0,
+		"closeHours" : 17,
+		"closeMinutes" : 0
+	},
+	{
+		"day" : "friday",
+		"open" : true,
+		"openHours" : 9,
+		"openMinutes" : 0,
+		"closeHours" : 17,
+		"closeMinutes" : 0
+	},
+	{
+		"day" : "saturday",
+		"open" : true,
+		"openHours" : 9,
+		"openMinutes" : 0,
+		"closeHours" : 12,
+		"closeMinutes" : 0
+	},
+	{
+		"day" : "sunday",
+		"open" : false,
+		"openHours" : 0,
+		"openMinutes" : 0,
+		"closeHours" : 0,
+		"closeMinutes" : 0
+	}
+]}
+	
